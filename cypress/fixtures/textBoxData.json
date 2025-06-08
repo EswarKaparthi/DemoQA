@@ -1,0 +1,14 @@
+{
+  "positiveUser": {
+    "fullName": "Taylor Swift",
+    "email": "taylor.swift@mailinator.com",
+    "currentAddress": "123 Hollywood St, LA",
+    "permanentAddress": "456 Bury Road, Nashville"
+  },
+  "negativeUser": {
+    "fullName": "Ariana Grande",
+    "email": "invalid-email",
+    "currentAddress": "789 Pine Ln",
+    "permanentAddress": "101 Elm Rd"
+    }
+}

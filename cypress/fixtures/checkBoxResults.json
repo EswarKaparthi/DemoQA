@@ -1,0 +1,24 @@
+{
+  "Home": [
+    "home", "desktop", "notes", "commands",
+    "documents", "workspace", "react", "angular", "veu",
+    "office", "public", "private", "classified", "general",
+    "downloads", "wordFile", "excelFile"
+  ],
+  "Desktop": ["desktop", "notes", "commands"],
+  "Notes": ["notes"],
+  "Commands": ["commands"],
+  "Documents": ["documents", "workspace", "react", "angular", "veu", "office", "public", "private", "classified", "general"],
+  "Workspace": ["workspace", "react", "angular", "veu"],
+  "React": ["react"],
+  "Angular": ["angular"],
+  "Veu": ["veu"],
+  "Office": ["office", "public", "private", "classified", "general"],
+  "Public": ["public"],
+  "Private": ["private"],
+  "Classified": ["classified"],
+  "General": ["general"],
+  "Downloads": ["downloads", "wordFile", "excelFile"],
+  "Word File.doc": ["wordFile"],
+  "Excel File.doc": ["excelFile"]
+}

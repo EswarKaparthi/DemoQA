@@ -1,0 +1,16 @@
+{
+   "firstScenario" : { 
+        "selectValue" : "Group 2, option 1",
+        "selectOne" : "Mr.",
+        "oldStyleSelectMenu" : "Yellow",
+        "multiSelectDropdown" : ["Black"],
+        "standardMultiSelect" : "Saab"
+   },
+   "secondScenario" : {
+        "selectValue" : "A root option",
+        "selectOne" : "Other",
+        "oldStyleSelectMenu" : "Blue",
+        "multiSelectDropdown" : ["Black", "Blue", "Green"],
+        "standardMultiSelect" : "Audi"
+   }
+}
