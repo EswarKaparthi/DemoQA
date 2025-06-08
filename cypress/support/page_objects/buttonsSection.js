@@ -33,8 +33,6 @@ export class ButtonsSection {
         cy.get('#dynamicClickMessage').should('have.text', 'You have done a dynamic click');
     }
 
-
-
 }   
 
 export const buttonsSection = new ButtonsSection();
