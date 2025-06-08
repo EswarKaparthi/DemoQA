@@ -7,12 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:chrome" : "cypress run --browser chrome",
-    "cy:edge" : "cypress run --browser edge"
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:edge": "cypress run --browser edge"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^14.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
   }
 }

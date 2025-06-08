@@ -1,4 +1,5 @@
 cypress/screenshots
 node_modules
 cypress/videos
-cypress.env.json
+package-lock.json
+.env
