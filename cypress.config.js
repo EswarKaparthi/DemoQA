@@ -15,6 +15,9 @@ module.exports = defineConfig({
        
     },
     baseUrl: 'https://demoqa.com/',
+    env: { 
+      loadDelayUrl: 'http://uitestingplayground.com/loaddelay' 
+    },
     specPattern: 'cypress/e2e/**/*.spec.{js,jsx,ts,tsx}',
     defaultCommandTimeout: 10000,
     experimentalStudio:true,

@@ -8,6 +8,7 @@ export class LoginSection {
     newUserButton = '#newUser'
     userNameValue = '#userName-value'
     logOutButton = '#submit'
+    loggedInLabel = '#loading-label'
     
     loadLoginData() {
     return cy.fixture('loginDetails.json').then((data) => {
@@ -36,6 +37,10 @@ export class LoginSection {
 
     inValidLogin(){
       cy.get(this.userForm).should('contain.text', 'Invalid username or password!')
+    }
+
+    loggedInUser(){
+      cy.get(this.loggedInLabel).should('contain.text', 'You are already logged in. View your profile.')
     }
 }
 

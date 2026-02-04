@@ -33,5 +33,9 @@ export class LinksSection {
     cy.get(this.linkResponse).should('be.visible').and('contain.text', `Link has responded with staus ${expectedStatus} and status text ${expectedStatusText}`)
 
   }
+
+  createdLinkIntercept() {
+    cy.intercept('GET', 'https://demoqa.com/created').as('createdLink')
+  }
 }
 export const linksSection = new LinksSection;

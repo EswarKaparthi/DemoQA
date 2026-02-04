@@ -54,10 +54,9 @@ export class ElementsPage {
     }
 
     loginSection() {
-        this.navigateSection('Login', '/login');
+        this.navigateSection('Login', '/login')
     }
 
 }
-
 
 export const elementsPage = new ElementsPage()
