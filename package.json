@@ -8,16 +8,16 @@
     "cy:run": "cypress run",
     "cy:chrome": "cypress run --browser chrome",
     "cy:edge": "cypress run --browser edge",
-    "cypress:record": "cross-env cypress run --record --key $CYPRESS_RECORD_KEY",
+    "cypress:record": "cypress run --record --key 6c34ddf2-0cef-4acb-bf20-ab25abb4ef08",
     "cypress:chrome": "npm run cypress:record -- --browser chrome  --group chrome --ci-build-id 1",
     "cypress:edge": "npm run cypress:record -- --browser edge  --group edge --ci-build-id 1",
-    "cypress:parallel": "npm run cypress:chrome && npm run cypress:edge"
+    "cypress:cross_browser": "npm run cypress:chrome && npm run cypress:edge"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "cypress": "^14.4.1"
+    "cypress": "^15.5.0"
   },
   "dependencies": {
     "dotenv": "^16.5.0"

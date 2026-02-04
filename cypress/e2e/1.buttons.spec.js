@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
-import {elementsPage} from '../support/page_objects/elementsPage' 
+import { elementsPage } from '../support/page_objects/elementsPage';
+
 import {buttonsSection} from '../support/page_objects/buttonsSection'
 
 describe('Buttons in the Demo QA Site', () => {
@@ -23,6 +24,4 @@ describe('Buttons in the Demo QA Site', () => {
     buttonsSection.clickMeButton()
   
   })
-
-
 })

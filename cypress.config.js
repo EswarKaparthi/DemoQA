@@ -16,6 +16,8 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://demoqa.com/',
     specPattern: 'cypress/e2e/**/*.spec.{js,jsx,ts,tsx}',
-    defaultCommandTimeout: 10000
+    defaultCommandTimeout: 10000,
+    experimentalStudio:true,
+    experimentalPromptCommand:true
   },
 });

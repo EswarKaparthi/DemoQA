@@ -18,7 +18,7 @@ describe('Radio Buttons in the Demo QA Site', () => {
     radioButtonSection.clickYesButton()
     radioButtonSection.clickImpressiveButton()
     radioButtonSection.clickNoButton()
-
+    
   })
 
 })
